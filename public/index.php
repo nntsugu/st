@@ -8,12 +8,12 @@ try {
      * Read the configuration
      */
     $config = include __DIR__ . "/../app/config/config.php";
+var_dump($config);exit;
 
     /**
      * Read auto-loader
      */
     include __DIR__ . "/../app/config/loader.php";
-var_dump('aaaa');exit;
     /**
      * Read services
      */
