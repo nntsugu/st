@@ -6,7 +6,7 @@ var_dump(file_exists('../../bin/php_phalcon.dll'));
 var_dump(file_exists('../../../bin/php_phalcon.dll'));
 var_dump(file_exists('../../../../bin/php_phalcon.dll'));
 var_dump(file_exists('../../../../../bin/php_phalcon.dll'));
-phpinfo();exit;
+phpinfo();
 
 error_reporting(E_ALL);
 ini_set( 'display_errors', 1 );
