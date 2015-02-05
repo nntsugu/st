@@ -4,6 +4,7 @@ error_reporting(E_ALL);
 
 try {
 
+var_dump(__DIR__ . "/../app/config/config.php");exit;
     /**
      * Read the configuration
      */
