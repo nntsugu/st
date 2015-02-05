@@ -1,6 +1,11 @@
 <?php
 
+var_dump(file_exists('bin/php_phalcon.dll'));
+var_dump(file_exists('../bin/php_phalcon.dll'));
 var_dump(file_exists('../../bin/php_phalcon.dll'));
+var_dump(file_exists('../../../bin/php_phalcon.dll'));
+var_dump(file_exists('../../../../bin/php_phalcon.dll'));
+var_dump(file_exists('../../../../../bin/php_phalcon.dll'));
 phpinfo();exit;
 
 error_reporting(E_ALL);
