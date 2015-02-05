@@ -13,7 +13,7 @@ try {
      * Read auto-loader
      */
     include __DIR__ . "/../app/config/loader.php";
-
+var_dump('aaaa');exit;
     /**
      * Read services
      */
