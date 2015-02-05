@@ -4,11 +4,11 @@ error_reporting(E_ALL);
 
 try {
 
-var_dump(__DIR__ . "/../app/config/config.php");exit;
+var_dump(__DIR__ . "../app/config/config.php");
     /**
      * Read the configuration
      */
-    $config = include __DIR__ . "/../app/config/config.php";
+    $config = include __DIR__ . "../app/config/config.php";
 var_dump($config);exit;
 
     /**
