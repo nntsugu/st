@@ -1,5 +1,7 @@
 <?php
 
+var_dump('hogeegee');
+
 return new \Phalcon\Config(array(
     'database' => array(
         'adapter'     => 'Mysql',
