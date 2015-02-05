@@ -6,7 +6,7 @@ class SpController extends \Phalcon\Mvc\Controller
     public function indexAction()
     {
 
-var_dump('indddddß');exit;
+//var_dump('indddddß');exit;
         $kimono_result = json_decode(file_get_contents('https://www.kimonolabs.com/api/1zt5pqx6?apikey=woZPkSkRFS6bkosi4zQSAykupYsDwXYW'));
 
         $this->view->results = $kimono_result->results->collection1;
