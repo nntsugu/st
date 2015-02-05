@@ -1,10 +1,10 @@
 <?php
 
 error_reporting(E_ALL);
+ini_set( 'display_errors', 1 );
 
 try {
 
-var_dump(__DIR__ . "/../app/config/config.php");
     /**
      * Read the configuration
      */

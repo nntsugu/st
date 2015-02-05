@@ -1,7 +1,7 @@
 <?php
 
 var_dump('hogeegee');
-ini_set( 'display_errors', 1 );
+
 
 return new \Phalcon\Config(array(
     'database' => array(
