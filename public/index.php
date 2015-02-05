@@ -3,7 +3,7 @@
 error_reporting(E_ALL);
 
 try {
-
+var_dump('aaaa');exit;
     /**
      * Read the configuration
      */
