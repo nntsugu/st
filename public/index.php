@@ -1,4 +1,6 @@
 <?php
+
+echo 'aaa';exit;
 /*
 var_dump(file_exists('bin/php_phalcon.dll'));
 var_dump(file_exists('../bin/php_phalcon.dll'));
